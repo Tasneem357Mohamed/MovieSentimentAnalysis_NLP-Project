@@ -3,14 +3,18 @@
 This project performs **sentiment analysis** on movie reviews using machine learning techniques. Reviews are classified as **positive** or **negative**, and the model's training process is visualized and evaluated.
 
 ---
+## Deployement Website
+![WhatsApp Image 2025-05-23 at 03 25 58](https://github.com/user-attachments/assets/4972ca86-6c4c-4c5a-9279-d85bcb64c0cf)
 
+---
 ## Dataset
 
 We use the **Sentiment Polarity Dataset v1.0** from Cornell:
 - Link: [Cornell Movie Review Data](https://www.cs.cornell.edu/people/pabo/movie-review-data/)
 - It contains:
   - `pos/` folder: positive movie reviews
-  - `neg/` folder: negative movie reviews
+  - `neg/![WhatsApp Image 2025-05-23 at 03 25 58](https://github.com/user-attachments/assets/759a84bc-cd26-42fb-88ac-60c1c00ecbd3)
+` folder: negative movie reviews
 
 The dataset is split into:
 - **Training Set** (for training the ML model)
@@ -41,7 +45,7 @@ The dataset is split into:
 - ML Models:
   - LSTM
   - RNN
-  - G
+  - GRU
 - Dataset split: 80% training / 20% testing
 - Performance metrics:
   - Accuracy
@@ -59,6 +63,11 @@ The dataset is split into:
 ---
 
 ## Results
+### Best Model --> ML Model (SVM Model: with Kernel => Linear)
+### * Best Parameters: {'C': 1}
+### * Best CV F1-Score: 89.49%
+### * Train Accuracy: 95.875%
+### * Test Accuracy: 87.75%
 
 ---
 

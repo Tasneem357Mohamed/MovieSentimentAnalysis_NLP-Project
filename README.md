@@ -1,11 +1,10 @@
-
 # 🎬 Sentiment Analysis of Movie Reviews
 
 This project performs **sentiment analysis** on movie reviews using machine learning techniques. Reviews are classified as **positive** or **negative**, and the model's training process is visualized and evaluated.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 We use the **Sentiment Polarity Dataset v1.0** from Cornell:
 - Link: [Cornell Movie Review Data](https://www.cs.cornell.edu/people/pabo/movie-review-data/)
@@ -19,10 +18,11 @@ The dataset is split into:
 
 ---
 
-## ⚙️ Process Workflow
+## Process Workflow
 
 ### 1. **Data Preprocessing**
 - Reading all `.txt` files
+- Removing Duplicates and Stopwords
 - Removing punctuation, special characters
 - Tokenization and stop word removal
 - Lowercasing and normalization
@@ -31,10 +31,17 @@ The dataset is split into:
 - Used **TF-IDF Vectorization** to convert text data into numerical features.
 
 ### 3. **Model Training and Testing**
-- Models Tried:
+- ML Models:
   - Logistic Regression
   - Naive Bayes
   - Support Vector Machine (SVM)
+  - Random Forest
+  - KNN
+  - Decision Tree
+- ML Models:
+  - LSTM
+  - RNN
+  - G
 - Dataset split: 80% training / 20% testing
 - Performance metrics:
   - Accuracy
@@ -51,58 +58,22 @@ The dataset is split into:
 
 ---
 
-## 📊 Results
-
-- **Best Model**: *(e.g., Logistic Regression)*
-- **Accuracy**: *~XX%* on test set
-- **Classification Report**:
-  ```
-  Precision  Recall  F1-score
-  Pos:  0.XX     0.XX    0.XX
-  Neg:  0.XX     0.XX    0.XX
-  ```
-
-- **Confusion Matrix**:
-  ```
-       Predicted
-       Pos  Neg
-  Pos [ TP   FN ]
-  Neg [ FP   TN ]
-  ```
+## Results
 
 ---
 
-## 🧪 How to Run
-
-1. **Install Requirements**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. **Run the Notebook**
-   Open and run all cells in `Movie_Deployment.ipynb`
-
-3. **Model Output**
-   - Model performance is printed
-   - Charts are generated for visualization
-   - Best model is saved as `best_model.pkl`
-
----
-
-## 📂 Project Structure
-
-```
-📁 dataset/
-   ├── pos/
-   └── neg/
-📄 Movie_Deployment.ipynb
-📄 README.md
-📄 requirements.txt
-```
-
----
-
-## 💬 Notes
+## Notes
 
 - Ensure the dataset folders are correctly named `pos` and `neg`.
 - This notebook is intended for educational use and could be expanded with deep learning models or hyperparameter tuning.
+
+---
+## Contributors
+|                   Name                    |     Github Link    |
+| :---------------------------------------: | :--------: |
+|      Tasneem Mohamed Ahmed Mohamed     | https://github.com/Tasneem357Mohamed |
+| Bsmala Tarek Kamal Khalil Elbagoury | https://github.com/Bsmalatarek |
+|     Nora Ahmed Salem Ahmed   | https://github.com/Nora-Ahmed |
+|          Amira Mostafa Haroon Abde/Wahaab          | https://github.com/amira468 |
+|           Shahd Sherif Wagdy Khalifa          | https://github.com/shahdsherif29 |
+|       Mennatullah Alaa Ahmed        |  |
